@@ -127,3 +127,8 @@ div hr {
   margin: 5px 20px;
   padding-bottom: 0%;
 }
+@media all and (max-width: 500px) {
+  .container-item {
+    width: fit-content;
+  }
+}
